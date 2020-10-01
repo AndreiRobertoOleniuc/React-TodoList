@@ -19,6 +19,7 @@ function App() {
   useEffect(() => {
     getLocalTodos();
   }, []);
+  
   //Wird ausgeführt wenn sich die State Todos ändert oder Status
   useEffect(() => {
     filterHandler();
